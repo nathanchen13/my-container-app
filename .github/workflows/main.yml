@@ -21,6 +21,6 @@ jobs:
         uses: azure/container-apps-deploy-action@v1
         with:
           appSourcePath: ${{ github.workspace }}/src
-          acrName: containerTestingRegistry 
+          acrName: ca9ce888915facr 
           containerAppName: my-container-app
           resourceGroup: container-testing-rg
